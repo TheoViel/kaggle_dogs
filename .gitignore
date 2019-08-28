@@ -1,2 +1,4 @@
 *.jpg
-/input
+/input/Annotation
+/input/all-dogs
+/.idea
