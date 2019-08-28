@@ -30,8 +30,10 @@ The Memorization-informed part is here to make sure generated images are not too
 
 ## Results
 
-The architecture I proposed is the (former) state of the art ProGAN. Refer to this (paper)[https://research.nvidia.com/publication/2017-10_Progressive-Growing-of], which is a great read, for more informations.
-A FID of 30 was achieved on the public leaderboard. 
+The architecture I proposed is the (former) state of the art ProGAN. Refer to this [paper](https://research.nvidia.com/publication/2017-10_Progressive-Growing-of), which is a great read, for more informations.
+A FID of 30 was achieved on the public leaderboard.
+
+On private leaderboard, it scored **82.8** which put me at the **6th place**.
 
 ## Repository 
 
@@ -47,7 +49,7 @@ A FID of 30 was achieved on the public leaderboard.
 - `output` : Generated images and model weights
 - `input` : Input data is expected here
 
-If you wish to reproduce the results, the easiest way is to fork (the Kaggle kernel)[https://www.kaggle.com/theoviel/conditional-progan-30-public]
+If you wish to reproduce the results, the easiest way is to fork [the Kaggle kernel](https://www.kaggle.com/theoviel/conditional-progan-30-public)
 
 ## Data
 
@@ -55,13 +57,13 @@ Data can be downloaded on the official Kaggle page : https://www.kaggle.com/c/ge
 
 ## Ressources
 
-- (Generative Adversarial Nets)[https://arxiv.org/pdf/1406.2661.pdf]
-- (Deep Convolutional GANs)[https://arxiv.org/pdf/1511.06434.pdf]
-- (NVIDIA's Progressive Growing of GANs paper)[https://research.nvidia.com/publication/2017-10_Progressive-Growing-of]
-- (Improved Techniques for Training GANs)[https://arxiv.org/pdf/1606.03498.pdf]
-- (CGANs with Projection Discriminator)[https://arxiv.org/pdf/1802.05637.pdf]
-- The modeling part of the kernel is taken from (this repository)[https://github.com/akanimax/pro_gan_pytorch]
+- [Generative Adversarial Nets](https://arxiv.org/pdf/1406.2661.pdf)
+- [Deep Convolutional GANs](https://arxiv.org/pdf/1511.06434.pdf)
+- [NVIDIA's Progressive Growing of GANs paper](https://research.nvidia.com/publication/2017-10_Progressive-Growing-of)
+- [Improved Techniques for Training GANs](https://arxiv.org/pdf/1606.03498.pdf)
+- [CGANs with Projection Discriminator](https://arxiv.org/pdf/1802.05637.pdf)
+- The modeling part of the kernel is taken from [this repository](https://github.com/akanimax/pro_gan_pytorch)
 
 ## Results preview
 
-![freesound](http://playagricola.com/Kaggle/dogs381419.png)
+![Generated Dogs](http://playagricola.com/Kaggle/dogs381419.png)
